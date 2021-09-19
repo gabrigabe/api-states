@@ -14,7 +14,7 @@ Primeiramente rode o arquivo para a criação da database com o nome 'criardb'
 
 logo após vá ate a pasta config e edite o arquivo default json com as informações de conexão do MYSQL de sua maquina seguindo o seguinte padrão:
 
-```RAW
+```JSON
 {
     "mysql": {
         "banco-de-dados": "estados",
@@ -39,7 +39,7 @@ Na api podemos inserir, listar editar e deletar um estado no brasil, para isso u
 
 ### Inserindo dados
 Inserimos dados utilizando o método POST em qual na url localhost:3000/api/states/ inserimos um objeto JSON que irá automaticamente para a nossa base de dados, para inserir um estado devemos utilizar o seguinte formato
-```JSON
+```JS
 {
     "nome": "",  // Nome do Estado
     "regiao":"", // Regiao
