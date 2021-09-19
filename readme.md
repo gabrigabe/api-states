@@ -14,7 +14,7 @@ Primeiramente rode o arquivo para a criação da database com o nome 'criardb'
 
 logo após vá ate a pasta config e edite o arquivo default json com as informações de conexão do MYSQL de sua maquina seguindo o seguinte padrão:
 
-```JSON
+```RAW
 {
     "mysql": {
         "banco-de-dados": "estados",
